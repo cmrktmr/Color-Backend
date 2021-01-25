@@ -21,6 +21,6 @@ io.on("connection", (socket) => {
   socket.on("disconnect", () => console.log("a user disconnected"));
 });
 
-http.listen(4000, () => {
-  console.log("listening on *:4000");
+http.listen(3000, () => {
+  console.log("listening on *:3000");
 });
